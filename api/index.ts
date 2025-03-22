@@ -5,10 +5,16 @@ app.get("/", (req, res) => res.send("Express on Vercel"));
 
 app.get('/sportsgeek-url', (req, res) => {
   // res.send('Hello World!');
+  // res.json({
+  //   name: 'SportsGeek',
+  //   url: 'http://google-djcnd.com:8080'
+  // });
+
   res.json({
     name: 'SportsGeek',
-    url: 'http://google-djcnd.com:8080'
+    url: 'http://65.2.72.237:8080'
   });
+  
 });
 
 app.listen(3000, function () {
