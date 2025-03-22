@@ -12,7 +12,7 @@ app.get('/sportsgeek-url', (req, res) => {
 
   res.json({
     name: 'SportsGeek',
-    url: 'http://65.2.72.237:8080'
+    url: 'http://65.1.72.237:8080'
   });
   
 });
